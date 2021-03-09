@@ -1,0 +1,33 @@
+Oppgaven skal inneholde: 
+
+-Skal være i Mvc (model, view, controller)
+
+-minst 1 Eventhandler (onclick etc.)
+
+-minst 1 If-setning med && eller ||
+
+-minst en funksjon som returnerer en verdi
+-minst en funksjon som bruker parameter
+ps. de to ovenfor KAN være samme funksjon
+
+-minst 3 unit tester tilsammen av funskjonene du bruker(ikke view)
+
+-= Det finnes to typer funksjoner: 
+    1. "Rene" funksjoner - funksjoner som utfører én oppgave - og returnerer noe. Brukes av andre funksjoner.   
+    2. Controller funksjoner - funksjoner som endrer noe i modellen og kaller på/refresher viewet.
+
+FORSLAG til ting dere kan lage:
+
+1- Loggin som ikke bytter side - men legger til på gjeldene side
+2- BMI-kalkulator
+3- CoronaCounter "vakta" som står på utsiden og teller antall personer i bygget (- for ut og + for inn)
+4- Loddtrekning
+5- Krig (kortspill- bruk 1-13 verdier, må ikke tenke ferdig applikasjon med 52 kort og 4 av hver type osv)
+6- TidsEvents - noe skjer til gitte klokkeslett (opp mot dateTime -> lunjs, frokost, middag ect)
+7- Kaffeautomat (med betaling)
+8- Quiz
+9- Fastfood bestilling
+10- Hangman (ett ord å gjette på i første omgang)
+11- Guess the number game, lager et random tall også skal brukeren gjette tallet. brukeren får ikke se tallet før den har gjettet riktig
+
+ 

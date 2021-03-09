@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>QUnit Example</title>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://code.jquery.com/qunit/qunit-2.9.2.js"></script>
+    <script src="funksjoner.js"></script>
+    <script>
+         //husk å legge dummyview og dummymodel her som testene jobber mot  
+
+        ////////////////////////////////////////////// 
+       //  dummy model for våre eksempler          //
+      /*////*/    var test = 4;                   //
+     //                                          //
+    //  dummy veiw for våre eksempler    /////////
+   /*////*/ function updateVeiw(){};           //
+  //////////////////////////////////////////////
+ // VÅRE EKSEMPEL TESTER //////////////////////
+//////////////////////////////////////////////
+        //Denne testen tester en ren funksjon i controllerfila
+        QUnit.test("2*2 = 4", function (assert) {
+            const actual = gangeEtTallMedSegSelv(2);
+            const expected = 4;
+            assert.equal(actual, expected);
+        });
+
+        //Denne testen tester en controllerfunskjon (en som endrer på noe i modellen)
+        QUnit.test("Endre fra 4 til 5", function (assert) {
+            økMedEn();
+            const actual = test;
+            const expected = 5;
+            assert.equal(actual, expected);
+        });
+
+ // DERES TESTER:
+
+    </script>
+</body>
+</html>
